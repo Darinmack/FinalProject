@@ -3,7 +3,7 @@
 namespace app\core;
 
 use app\controllers\MainController;
-
+/*
 class Router
 {
     public $routeList;
@@ -33,3 +33,4 @@ class Router
         }
     }
 }
+*/

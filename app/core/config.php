@@ -1,6 +1,6 @@
 <?php 
 
-if($_SERVER['SERVER_NAME'] == 'localhost')
+if($_SERVER['SERVER_NAME'] ==  'localhost')
 {
 	/** database config **/
 	define('DBNAME', $env['DBNAME']);
@@ -9,7 +9,7 @@ if($_SERVER['SERVER_NAME'] == 'localhost')
 	define('DBPASS', $env['DBPASS']);
 	define('DBDRIVER', '');
 	
-	define('ROOT', 'http://localhost:8888/');
+define('ROOT',   'http://localhost' );
 
 }else
 {
