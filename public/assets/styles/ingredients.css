@@ -1,0 +1,8 @@
+.cont{
+    border: 10px solid rgb(187, 214, 30);
+    height: 100%;
+}
+
+html, body{
+    height: 100%;
+}

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.top-back {
+    background-image: url(https://st2.depositphotos.com/1194063/8994/i/450/depositphotos_89940720-stock-photo-colorful-spices-on-wooden-table.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#fin {
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#sea {
+    width: 700px; 
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px ;
+    outline: none;
+    border: 1px solid transparent; /* Transparent border initially */
+    
+}
+
+#sea:hover,
+#sea:focus {
+    border-color: rgb(231, 228, 19);
+   
+     /* Red border on hover or focus */
+}
+
+
+
+#btn {
+  
+      padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    color: rgb(94, 19, 192); /* Dark text color */
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#btn:hover {
+    background-color: #061f3a; /* Darker blue on hover */
+    color: #fff; /* White text color on hover */
+}
+
+
+
+#back {
+    padding-top: 20px;
+    background-image: url("some-transformed.jpeg");
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Adjust the background size to cover less area */
+    background-size:cover;
+    height: 900px;
+    width:100%;
+   
+    
+    
+}
