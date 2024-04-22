@@ -25,7 +25,7 @@
                   <!-- <li class="nav-item"><a class="nav-link" href="#">Calender</a></li>-->  
                     <li class="nav-item"><a class="nav-link" href="/contacts">Contacts</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/recipes" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/recipes">Recipes</a></li>
                             <li><a class="dropdown-item" href="/favorites">Favorites</a></li>

@@ -2,10 +2,12 @@
 require_once "../app/core/Database.php";
 require_once '../app/core/init.php';
 // require_once '../app/core/routes.php';
+require_once "../app/models/Contact.php";
 require_once '../app/controllers/MainController.php';
-require_once '../app/controllers/UserController.php';
+// require_once '../app/controllers/UserController.php';
 
-$env = parse_ini_file('final.env');
+
+$env = parse_ini_file('../final.env');
 require '../app/core/config.php';
 
 // use app\core\Router;
@@ -68,8 +70,12 @@ if ($uri === '/ingredients' && $_SERVER['REQUEST_METHOD'] === 'GET') {
 }
 
 if ($uri === '/contacts' && $_SERVER['REQUEST_METHOD'] === 'POST') {
-    $UserController = new UserController();
-    $UserController->saveContact();
+    $MainController = new MainController();
+    $MainController->saveContact();
+}
+if ($uri === '/newRecipes' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+    $MainController = new MainController();
+    $MainController->theNewRecipes();
 }
 
 /*

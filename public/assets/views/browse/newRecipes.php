@@ -24,7 +24,7 @@
                   <!-- <li class="nav-item"><a class="nav-link" href="#">Calender</a></li>-->  
                     <li class="nav-item"><a class="nav-link" href="/contacts">Contacts</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/recipes" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/recipes">Recipes</a></li>
                             <li><a class="dropdown-item" href="/favorites">Favorites</a></li>
@@ -50,32 +50,32 @@
     <br>
     <br>
 <div class="contain-new">
-    <form action="submit">
+    <form  id="new-Rep" action="/newRecipes" method="POST">
         <label for="name"></label>Name of Recipe
         <input id="name" type="text" placeholder="Enter name here">
 <br>
 <br>
-        <label for="type"></label>Meal or Dessert
-        <input id="type" type="text" placeholder="Enter type of food here">
+        <label for="category"></label>Meal or Dessert
+        <input id="category" type="text" placeholder="Enter type of food here">
 <br>
 <br>
         <label for="time"></label>Cooking Time
         <input id="time" type="text" placeholder="Enter cook time here">
 <br>
 <br>
-        <label for="serving "></label>Serving Size
-        <input id="serving" type="text" placeholder="Enter serving size here">
+        <label for="servingSize "></label>Serving Size
+        <input id="servingSize" type="text" placeholder="Enter serving size here">
 
         <br>
         <br>
 
-        <label for="ingred"></label> Ingredients
-        <input id="ingred" type="text" placeholder="Enter ingredients here">
+        <label for="ingredients"></label> Ingredients
+        <input id="ingredients" type="text" placeholder="Enter ingredients here">
 <br>
 <br>
 
-        <label for="instruct"></label> Instructions
-        <input id="instruct" type="text" placeholder="Enter Instructions here">
+        <label for="instructions"></label> Instructions
+        <input id="instructions" type="text" placeholder="Enter Instructions here">
         <br>
         <br>
 
@@ -83,12 +83,15 @@
 
     </form>
 
-
 <br>
 <br>
-
+<br>
+<div id="new-Recipes-Container">
 
 </div>
+
+</div>
+
 
     
 

@@ -24,20 +24,20 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" id="home" href="/">Home</a></li>
                   <!-- <li class="nav-item"><a class="nav-link" href="#">Calender</a></li>-->  
-                    <li class="nav-item"><a class="nav-link" id="maps" href="/contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link"  href="/contacts">Contacts</a></li>
                  <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="recipes" href="/recipes" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
+                        <a class="nav-link dropdown-toggle"  href="/recipes" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
                         <ul class="dropdown-menu" aria-labelledby= "browse" >
-                            <li><a class="dropdown-item" id="recipes" href="/recipes">Recipes</a></li>
-                            <li><a class="dropdown-item" id="fav" href="/favorites">Favorites</a></li>
-                            <li><a class="dropdown-item" id="new" href="/newRecipes">Add New Recipes</a></li>
+                            <li><a class="dropdown-item"  href="/recipes">Recipes</a></li>
+                            <li><a class="dropdown-item"  href="/favorites">Favorites</a></li>
+                            <li><a class="dropdown-item"  href="/newRecipes">Add New Recipes</a></li>
                         </ul>
                     </li>
                    
-                 <li class="nav-item"><a class="nav-link" id="cal" href="/ingredients">Ingredients</a></li>
+                 <li class="nav-item"><a class="nav-link" href="/ingredients">Ingredients</a></li>
                            
                     
-                    <li class="nav-item"><a class="nav-link" id="share" href="/sharing">Share with Others</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/sharing">Share with Others</a></li>
                 </ul>
             </div>
         </div>

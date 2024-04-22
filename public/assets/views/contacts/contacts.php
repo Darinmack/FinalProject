@@ -22,9 +22,9 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
                   <!-- <li class="nav-item"><a class="nav-link" href="#">Calender</a></li>-->  
-                    <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contacts">Contacts</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/recipes" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
+                        <a class="nav-link dropdown-toggle"  href="/recipes" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/recipes">Recipes</a></li>
                             <li><a class="dropdown-item" href="/favorites">Favorites</a></li>
@@ -50,41 +50,34 @@
 <br>
 <br>
 
-
-
-
 <div id="contact-container">
-<form> 
-<div class="form-group">
-    <label for="YourName">Name</label>
-    <input type="text" class="form-control" id="YourName" placeholder="YourName">
+
+<form id="contact-form" action="/contacts" method="POST">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
   </div>
-  <br>
-  <br>
-<div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
-  <br>
-  <br>
-
   <div class="form-group">
     <label for="feedBack">Feedback</label>
-    <input type="text" class="form-control" id="feedBack" placeholder="Feedback/Comments">
+    <input type="text" class="form-control" id="feedBack" name="Feedback" placeholder="Feedback/Comments" required>
   </div>
-<br>
-<br>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
 </div>
 <br>
 <br>
-<div id="collect-data-container"> </div
-
+<div id="collect-data-container"> </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
 </body>
 </html>
 
