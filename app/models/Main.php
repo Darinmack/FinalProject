@@ -3,9 +3,11 @@
 namespace app\models;
 use app\core\Model;
 
-class User
+class Main
 
 {
+
+
     use Model;
 
     protected $table = 'users';
@@ -13,4 +15,6 @@ class User
     public function getAllUsers() {
         return $this->findAll();
     }
+
+    
 }
