@@ -1,11 +1,11 @@
 <?php
 
 namespace app\models;
-namespace app\core;
+use app\core\Database;
 
-Trait Contact
+class Contact
 {
-    use Database;
+    use  Database;
 /*
     public function findAll()
     {
@@ -19,19 +19,19 @@ Trait Contact
 public function saveContact($inputData)
 {
     $query = "insert into feed (name, email, feedback) values (:name, :email, :feedback)";
-    return $this->queryWithParams($query, $inputData);
+    return $this->query($query, $inputData);
 }
 
 public function theNewRecipes($inputData)
 {
     $query = "insert into newrecipes (name, email, feedback) values (:name, :email, :feedback)";
-    return $this->queryWithParams($query, $inputData);
+    return $this->query($query, $inputData);
 }
 
 public function saveFavoriteRecipe($inputData)
 {
     $query = "insert into favorites (name, category) values (:name,  :category)";
-    return $this->queryWithParams($query, $inputData);
+    return $this->query($query, $inputData);
 }
 
 
