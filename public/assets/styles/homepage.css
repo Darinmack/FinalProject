@@ -1,6 +1,6 @@
 body{
  
-  background-image: url("wall.jpg");
+  background-image: url("./assets/views/main/wall.jpg");
   height: 100%;
   width: 100%;
   /* Center and scale the image nicely */

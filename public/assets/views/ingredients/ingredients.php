@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <script type="text/javascript" src="../../assets/js/ingredients.js"></script>
-    <link href="../../styles/ingredients.css" rel="stylesheet" />
+        <title>Recipe Reservoir</title>
+        <script type="text/javascript" src="./assets/js/ingredients.js"></script>
+    <link href="./assets/styles/ingredients.css" rel="stylesheet" />
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
    
 </head>

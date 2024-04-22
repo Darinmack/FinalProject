@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../../assets/js/contacts.js"></script>
-        <link rel="stylesheet" href="../../assets/styles/contacts.css">
-    <title>Bootstrap Navbar</title>
+    <script type="text/javascript" src="./assets/js/contacts.js"></script>
+    <link href="./assets/styles/contacts.css" rel="stylesheet" />
+    <title>Recipe Reservoir</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -24,7 +24,7 @@
                   <!-- <li class="nav-item"><a class="nav-link" href="#">Calender</a></li>-->  
                     <li class="nav-item"><a class="nav-link" href="/contacts">Contacts</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"  href="/recipes" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
+                        <a class="nav-link dropdown-toggle"  href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Recipes</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/recipes">Recipes</a></li>
                             <li><a class="dropdown-item" href="/favorites">Favorites</a></li>

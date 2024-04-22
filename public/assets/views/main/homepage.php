@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../../assets/js/homepage.js"></script>
+    <script type="text/javascript" src="./assets/js/homepage.js"></script>
        
-    <title>Bootstrap Navbar</title>
+    <title> Recipe Reservoir</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="../styles/homepage.css" rel="stylesheet" />
+    
+    <link href="./assets/styles/homepage.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -65,28 +66,28 @@
 <div id="carouselExampleAutoplaying" class="carousel slide p-3 bd-example" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="junk.jpg" class="con" class="d-block w-100" alt="Slide 1">
+            <img src="./assets/views/main/junk.jpg" class="con" class="d-block w-100" alt="Slide 1">
             <div class="carousel-caption">
                 <h5>Featured Food #1</h5>
                 <p>Meal Name featured here</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="burger.jpg" class="con" class="d-block w-100" alt="Slide 2">
+            <img src="./assets/views/main/burger.jpg" class="con" class="d-block w-100" alt="Slide 2">
             <div class="carousel-caption">
                 <h5>Featured Food #2</h5>
                 <p>Meal Name featured here</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="meal.jpg" class="con" class="d-block w-100" alt="Slide 3">
+            <img src="./assets/views/mainn/meal.jpg" class="con" class="d-block w-100" alt="Slide 3">
             <div class="carousel-caption">
                 <h5>Featured Food #3</h5>
                 <p>Meal Name featured here </p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="health.jpg" class="con" class="d-block w-100" alt="Slide 4">
+            <img src="./assets/views/main/health.jpg" class="con" class="d-block w-100" alt="Slide 4">
             <div class="carousel-caption">
                 <h5>Feautured Food #4</h5>
                 <p>Meal Name featured Here</p>
@@ -133,26 +134,7 @@
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!--
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const browseLink = document.getElementById("browse");
-        const dropdownMenu = document.querySelector(".dropdown-menu");
 
-        browseLink.addEventListener("click", function(event) {
-            event.preventDefault(); // Prevent default link behavior
-            dropdownMenu.classList.toggle("show"); // Toggle the visibility of the dropdown menu
-        });
-
-        document.addEventListener("click", function(event) {
-            const target = event.target;
-            if (!target.matches("#browse") && !dropdownMenu.contains(target)) {
-                dropdownMenu.classList.remove("show"); // Hide dropdown menu
-            }
-        });
-    });
-</script>
--->
 </body>
 </html>
 

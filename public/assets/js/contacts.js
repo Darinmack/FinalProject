@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-/*
+
 const browseLink = document.getElementById("recipes");
 const dropdownMenu = document.querySelector(".dropdown-menu");
 
@@ -28,26 +28,11 @@ document.addEventListener("click", function(event) {
         dropdownMenu.classList.remove("show"); // Hide dropdown menu
     }
 });
-*/
+
 
  
 
-console.log("browseLink:", browseLink);
-console.log("dropdownMenu:", dropdownMenu);
 
-browseLink.addEventListener("click", function(event) {
-    console.log("browseLink clicked");
-    event.preventDefault(); // Prevent default link behavior
-    dropdownMenu.classList.toggle("show"); // Toggle the visibility of the dropdown menu
-});
-
-document.addEventListener("click", function(event) {
-    console.log("document clicked");
-    const target = event.target;
-    if (!target.matches("#recipes") && !dropdownMenu.contains(target)) {
-        dropdownMenu.classList.remove("show"); // Hide dropdown menu
-    }
-});
 
 // Wait for the DOM content to load
 document.addEventListener('DOMContentLoaded', function() {

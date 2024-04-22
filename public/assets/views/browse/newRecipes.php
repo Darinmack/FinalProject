@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../../assets/js/newRecipes.js"></script>
-        <link rel="stylesheet" href="../../assets/styles/newRecipes.css">
-    <title>Bootstrap Navbar</title>
+    <script type="text/javascript" src="./assets/js/newRecipes.js"></script>
+    <link href="./assets/styles/newRecips.css" rel="stylesheet" />
+    <title>Recipe Reservoir</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>

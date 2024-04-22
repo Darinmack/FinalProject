@@ -5,7 +5,7 @@ require_once '../app/core/init.php';
 require_once "../app/models/Contact.php";
 require_once '../app/controllers/MainController.php';
 // require_once '../app/controllers/UserController.php';
-
+// require_once "./assets/views/styles/homepage.css";
 
 $env = parse_ini_file('../final.env');
 require '../app/core/config.php';

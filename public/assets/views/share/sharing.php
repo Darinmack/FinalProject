@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../../assets/js/sharing.js"></script>
-    <link href="../../styles/sharing.css" rel="stylesheet" />
-    <title>Bootstrap Navbar</title>
+    <script type="text/javascript" src="./assets/js/sharing.js"></script>
+    <link href="./assets/styles/sharing.css" rel="stylesheet" />
+    
+    <title>Recipe Reservoir</title>
     <!-- Bootstrap CSS -->
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +50,7 @@
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
               <div class="card" id="face">
-              <img src="facebook.png" class="" alt="...">
+              <img src="./assets/views/share/facebook.png" class="" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Facebook</h5>
                   <p class="card-text">Click below to share on Facebook!!</p>
@@ -59,7 +60,7 @@
             </div>
             <div class="col">
               <div class="card" id="insta">
-                <img src="unsplash.jpg" class="card-img-top" alt="...">
+                <img src="./assets/views/share/instagram.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Instagram</h5>
                   <p class="card-text">Click below to share via Instagram!!</p>
@@ -69,7 +70,7 @@
             </div>
             <div class="col">
               <div class="card" id="twitt">
-                <img src="twitter.jpg" class="card-img-top" alt="...">
+                <img src="./assets/views/share/twitter.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Twitter</h5>
                   <p class="card-text">Click below to share on Twitter.</p>
@@ -79,7 +80,7 @@
             </div>
             <div class="col">
               <div class="card"  id="tik">
-                <img src="../../../../../public/assets/views/share/t.png"  class="card-img-top" alt="...">
+                <img src="./assets/views/share/tiktok.png"  class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Tiktok</h5>
                   <p class="card-text">Click below to share you recipes on Tiktok.</p>
